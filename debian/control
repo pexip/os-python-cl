@@ -1,0 +1,30 @@
+Source: python-cl
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <FladischerMichael@fladi.at>
+Build-Depends: debhelper (>= 7.0.50~),
+               python-all (>= 2.6.6-3~)
+X-Python-Version: >= 2.5
+Standards-Version: 3.9.3
+Homepage: https://github.com/ask/cl
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-cl/trunk/
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-cl/trunk/
+
+Package: python-cl
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-kombu
+Description: Actor framework for Kombu
+ The aim of Kombu is to make messaging in Python as easy as possible by
+ providing an idiomatic high-level interface for the AMQP protocol. It is meant
+ to replace the carrot library by providing a compatibility layer.
+ .
+ Features:
+  * Allows application authors to support several message server solutions by
+    using pluggable transports.
+  * Supports automatic encoding, serialization and compression of message
+    payloads.
+  * The ability to ensure that an operation is performed by gracefully handling
+    connection and channel errors.

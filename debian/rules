@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python2
+
+.PHONY: override_dh_auto_install
+override_dh_auto_install:
+	dh_auto_install
+	sed -i 's/Metadata-Version: 1\.0/Metadata-Version: 1\.1/' debian/python-cl/usr/lib/python2.*/*-packages/cl-*.egg-info

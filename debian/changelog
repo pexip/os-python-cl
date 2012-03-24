@@ -1,0 +1,5 @@
+python-cl (0.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #665449)
+
+ -- Michael Fladischer <FladischerMichael@fladi.at>  Sat, 24 Mar 2012 12:44:40 +0100
