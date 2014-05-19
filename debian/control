@@ -1,8 +1,9 @@
 Source: python-cl
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Michael Fladischer <FladischerMichael@fladi.at>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Michael Fladischer <FladischerMichael@fladi.at>
 Build-Depends: debhelper (>= 7.0.50~),
                python-all (>= 2.6.6-3~)
 X-Python-Version: >= 2.5
@@ -10,6 +11,7 @@ Standards-Version: 3.9.3
 Homepage: https://github.com/ask/cl
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-cl/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-cl/trunk/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python-cl
 Architecture: all

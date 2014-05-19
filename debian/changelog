@@ -1,3 +1,9 @@
+python-cl (0.0.3-1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 19 May 2014 12:29:41 +0000
+
 python-cl (0.0.3-1) unstable; urgency=low
 
   * Initial release (Closes: #665449)
